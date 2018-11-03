@@ -7,7 +7,7 @@ app_name='vinux'
 dot_localvim="$HOME/.vim/local.vim"
 dot_vimrc="$HOME/.vimrc"
 [ -z "$APP_PATH" ] && APP_PATH="$HOME/.vim"
-[ -z "$REPO_URI" ] && REPO_URI='https://github.com/tracyone/vinux.git'
+[ -z "$REPO_URI" ] && REPO_URI='https://github.com/blueyi/vinux.git'
 [ -z "$REPO_BRANCH" ] && REPO_BRANCH='master'
 debug_mode='0'
 [ -z "$VIM_PLUG_PATH" ] && VIM_PLUG_PATH="$HOME/.vim/autoload"
@@ -96,7 +96,7 @@ sync_repo() {
     if [ -d "$repo_path/.git" ];
     then
         cd ${repo_path}
-        local git_remote_url=$(git remote get-url `git remote` | grep tracyone | grep vinux)
+        local git_remote_url=$(git remote get-url `git remote` | grep blueyi | grep vinux)
         #not my repo
         if [ -z ${git_remote_url} ];
         then
