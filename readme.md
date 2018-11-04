@@ -8,7 +8,7 @@ bash -c "$(curl -fsSL https://git.io/fxh3D)"
 
 **Wiki**
 
-[vinux's wiki](https://github.com/blueyi/vinux/wiki)
+[vinux's wiki](https://github.com/tracyone/vinux/wiki)
 
 [Telegram Group](https://t.me/vimchina)
 

@@ -1,12 +1,12 @@
 " Package info {{{
-Plug 'tracyone/a.vim',{'for': ['c', 'cpp']}
-Plug 'rhysd/vim-clang-format',{'for': ['c', 'cpp']}
-Plug 'hari-rangarajan/CCTree',{'for': ['c', 'cpp']}
+Plug 'tracyone/a.vim',{'for': ['c', 'cpp', 'cc']}
+Plug 'rhysd/vim-clang-format',{'for': ['c', 'cpp', 'cc']}
+Plug 'hari-rangarajan/CCTree',{'for': ['c', 'cpp', 'cc']}
 if(te#env#IsLinux())
     Plug 'tracyone/pyclewn_linux',{'branch': 'pyclewn-1.11'}
 endif
 Plug 'jyelloz/vim-dts-indent',{'for': ['dts']}
-Plug 'justinmk/vim-syntax-extra',{'for': ['c', 'cpp', 'lex', 'yacc']}
+Plug 'justinmk/vim-syntax-extra',{'for': ['c', 'cpp', 'cc', 'lex', 'yacc']}
 " }}}
 " A.vim ---------------------------{{{
 ":A switches to the header file corresponding to the current file being  edited (or vise versa)

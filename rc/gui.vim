@@ -16,7 +16,7 @@ Plug 'ayu-theme/ayu-vim'
 Plug 'arcticicestudio/nord-vim'
 Plug 'srcery-colors/srcery-vim'
 " }}}
-"Gui releate{{{
+"Gui related{{{
 if te#env#IsGui()
     try
         if (te#env#IsMac())

@@ -3,7 +3,7 @@ let g:complete_plugin.name=[g:complete_plugin_type.cur_val]
 let g:complete_plugin.enable_func=function('te#env#IsVim8')
 if g:complete_plugin_type.cur_val ==# 'YouCompleteMe' && te#env#SupportYcm()
     if te#env#IsUnix()
-        Plug 'Valloric/YouCompleteMe', { 'on': [], 'commit': 'f67e5ff27b048d8c55a10ba6a27c6c5b16d0f6ba' }
+        Plug 'Valloric/YouCompleteMe', { 'on': [] }
         let g:complete_plugin.name=['YouCompleteMe']
     elseif te#env#IsWin32()
         Plug 'snakeleon/YouCompleteMe-x86', { 'on': [] }
@@ -96,7 +96,7 @@ if g:complete_plugin_type.cur_val ==# 'YouCompleteMe'
     let g:syntastic_always_populate_loc_list = 1
     let g:ycm_semantic_triggers = {
                 \   'c' : ['->', '    ', '.', ' ', '(', '[', '&', 're!\w{4}'],
-                \     'cpp,objcpp' : ['->', '.', ' ', '(', '[', '&', '::'],
+                \     'cc,cpp,objcpp' : ['->', '.', ' ', '(', '[', '&', '::'],
                 \     'perl' : ['->', '::', ' '],
                 \     'php' : ['->', '::', '.'],
                 \     'cs,java,javascript,d,vim,perl6,scala,vb,elixir,go' : ['.'],

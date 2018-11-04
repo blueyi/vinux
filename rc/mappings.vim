@@ -168,7 +168,7 @@ nnoremap <F7> :call te#utils#OptionToggle('ff',['dos', 'unix'])<cr>
 nnoremap <Leader>td :call te#utils#OptionToggle('ff',['dos', 'unix'])<cr>
 " open url on cursor with default browser
 nnoremap <leader>ol :call te#utils#open_url("")<cr>
-" linu number toggle
+" line number toggle
 nnoremap <Leader>tn :call te#utils#nu_toggle()<cr>
 " realtime underline word toggle
 nnoremap <leader>th :call te#utils#OptionToggle("g:cursorword",[0,1])<cr>

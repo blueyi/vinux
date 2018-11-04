@@ -131,7 +131,7 @@ else
 endif
 
 
-"statuslne
+"statusline
 if get(g:,'feat_enable_airline') != 1
     " Dictionary: take mode() input -> longer notation of current mode
     " mode() is defined by Vim
